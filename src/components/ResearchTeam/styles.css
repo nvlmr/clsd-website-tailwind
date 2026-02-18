@@ -1,0 +1,25 @@
+.paragraph{
+ margin:10px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ display: -webkit-box;
+ -webkit-line-clamp: 1;
+ -webkit-box-orient: vertical;
+}
+
+
+.pagebreak{  page-break-after: always !important; }
+
+
+.page-item.active .page-link {
+  background-color: #e61e4d;
+  border-color: #e61e4d;
+}
+
+.page-link {
+  color: #e61e4d;
+}
+
+.page-link:hover {
+  color: #e61e4d;
+}

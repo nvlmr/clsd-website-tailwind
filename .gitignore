@@ -1,0 +1,18 @@
+node_modules/*
+# Ignore all files in the image folder
+/src/components/image/*
+
+# Don't ignore the specific file you want to keep (e.g., keepfile.jpg)
+!/src/components/image/LSD.png
+!/src/components/image/LSPU.png
+!/src/components/image/DOST.png
+!/src/components/image/PCIEERD.png
+!/src/components/image/PCAARRD.png
+!/src/components/image/NRCP.png
+!/src/components/image/DA-BFAR.png
+!/src/components/image/DENR.png
+!/src/components/image/UPLB.png
+!/src/components/image/LAGUNA.png
+!/src/components/image/S4CP.png
+!/src/components/image/clsd-header.png
+!/src/components/image/banner2.jpg

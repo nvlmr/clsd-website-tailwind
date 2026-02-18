@@ -1,0 +1,54 @@
+
+{ /*
+.header {
+ background: url("http://localhost:5001/api/collection-content/banner2.jpg");
+  height: 30vh;
+  position: relative;
+  background-position: 100% 150%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+
+
+*/}
+{ /*
+.header::before {
+  content: "";
+  position: relative;
+  top: 100;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+{ 
+.header * {
+  z-index: 10;
+}
+*/}
+
+
+.header {
+  background: url("./../components/image/banner2.jpg");
+  height: 30vh;
+  position: relative;
+  background-position: 100% 150%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header::before {
+  content: "";
+  position: relative;
+  top: 100;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
